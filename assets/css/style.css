@@ -1,0 +1,144 @@
+section {
+  padding: 30px 0 30px 0;
+}
+
+.rich-info {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+}
+
+.rich-info-detail-info{
+  padding-top: 50px;
+}
+
+.section-name {
+    color: #BEC8CE ;
+}
+
+.read-our-docs {
+  background-color: #262F36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  line-height: 30px;
+}
+
+.title-name {
+  color: rgba(255, 255, 255, .7) ;
+}
+
+.rather-than {
+  color: rgba(255, 255, 255, .7) ;
+}
+
+.read-our-docs-btn {
+  height: 60px;
+  text-align: center;
+  background: white;
+  border : none;
+  border-radius: 5px ;
+  font-size: 18px;
+}
+
+.high-praise {
+  background-image: url('https://bootstrap-themes.github.io/marketing/assets/img/startup-3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.recode {
+  background-color: #2595FF;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  line-height: 55px;
+  letter-spacing: 35px;
+}
+
+.inside-the-machine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center ;
+  align-items: center;
+}
+
+.inside-the-machine-header {
+  text-align: center;
+}
+
+.inside-the-machine img {
+  padding-top: 30px;
+}
+
+.business-talk {
+  background-color: #F4F5F6;
+  text-align: center;
+}
+
+.person {
+  padding-top: 30px;
+}
+
+.list-group {
+  list-style: none;
+  padding : 20px 0 20px 0;
+}
+
+.list-group li {
+  text-align: start;
+  border-top: 1px solid #adb5bd;
+  padding : 20px 0 20px 0;
+}
+
+.public {
+  border-bottom: 1px solid #adb5bd;;
+}
+
+.account {
+  background-color: #0082fe;
+  border: none;
+  border-radius: 5px;
+  height: 60px;
+  width: 100%;
+  color: white;
+  font-size : 16px;
+}
+
+.about-theme {
+  background-color: #262F36;
+  color: white;
+  min-height: 400px;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-better {
+  padding-top: 20px;
+}
+
+.product ul {
+  list-style: none;
+  padding : 20px 0 20px 0;
+}
+
+
+
+@media (min-width:768px) {
+  .read-our-docs-btn {
+    width: 250px
+  }
+}
+
